@@ -6,7 +6,7 @@ type EventListProps = {
   events: Event[];
 };
 
-const EventList = (props: EventListProps) => {
+export const EventList = (props: EventListProps) => {
   const { events } = props;
   return (
     <ul className={classes.list}>
@@ -16,5 +16,3 @@ const EventList = (props: EventListProps) => {
     </ul>
   );
 };
-
-export default EventList;
