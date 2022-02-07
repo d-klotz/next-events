@@ -2,8 +2,8 @@
   text-decoration: none;
   cursor: pointer;
   font: inherit;
-  background-color: #000000;
-  border: 1px solid #000000;
+  background-color: #29685a;
+  border: 1px solid #29685a;
   border-radius: 6px;
   color: #dafff7;
   padding: 0.5rem 1.5rem;
@@ -13,6 +13,6 @@
 
 .btn:hover,
 .btn:active {
-  background-color: #383735;
-  border-color: #383735;
+  background-color: #1e8d74;
+  border-color: #1e8d74;
 }

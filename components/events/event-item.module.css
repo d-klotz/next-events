@@ -1,9 +1,8 @@
 .item {
-  box-shadow: 0 1px 4px rgba(172, 168, 168, 0.3),
-    0 1px 12px 2px rgba(134, 134, 134, 0.2);
   border-radius: 8px;
   overflow: hidden;
-  background-color: #e3d5a3;
+  background-color: #2b2b2b;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   margin: 1rem;
   display: flex;
   flex-direction: column;
@@ -27,7 +26,7 @@
 }
 
 .summary {
-  color: #222121;
+  color: #2bb1a6;
 }
 
 .date,
@@ -41,17 +40,17 @@
 .address svg {
   width: 1.25rem;
   height: 1.25rem;
-  color: #271d1d;
+  color: #d5eeeb;
 }
 
 .content time {
-  color: #271d1d;
+  color: #d5eeeb;
   font-weight: bold;
 }
 
 .content address {
   margin: 0.5rem 0;
-  color: #271d1d;
+  color: #d5eeeb;
   white-space: pre;
 }
 
