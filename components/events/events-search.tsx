@@ -3,7 +3,7 @@ import { Button } from "../ui";
 import classes from "./events-search.module.css";
 
 type EventsSearchProps = {
-  onSearch: (selectedYear: string, selectedMonth: string) => void;
+  onSearch: (selectedYear?: string, selectedMonth?: string) => void;
 };
 
 export const EventsSearch: React.FC<EventsSearchProps> = (props) => {

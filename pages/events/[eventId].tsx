@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+import { ErrorAlert } from "../../components/error-alert";
 import {
   EventSummary,
   EventLogistics,
@@ -13,7 +14,11 @@ const EventDetailPage = () => {
   const event = getEventById(eventId as string);
 
   if (!event) {
-    return <p>Event not found</p>;
+    return (
+      <ErrorAlert>
+        <p>Event not found</p>
+      </ErrorAlert>
+    );
   }
 
   return (
